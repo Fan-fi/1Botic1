@@ -3,7 +3,7 @@ from config import token
 from random import randint
 from logic import *
 
-bot = telebot.TeleBot('8397741728:AAHkiT4YZxFKMbydL7P02WMVNiRLfM5tsys') 
+bot = telebot.TeleBot('') 
 
 @bot.message_handler(commands=['go'])
 def start(message):
